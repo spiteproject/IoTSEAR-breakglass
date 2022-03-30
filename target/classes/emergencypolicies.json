@@ -1,0 +1,32 @@
+[
+  {
+    "emergencyLevel":{
+      "level": 5
+    },
+    "description":"First policy",
+    "condition":{
+
+    },
+    "freshness":5,
+    "cancelPeriod":4,
+    "emergencyPeriod": 300,
+    "consented":false,
+    "id":"emg-pol-1",
+    "isActive":false
+  },
+  {
+    "emergencyLevel":{
+      "level":3
+    },
+    "description":"Second policy",
+    "condition":{
+
+    },
+    "freshness":10,
+    "cancelPeriod": 5,
+    "emergencyPeriod": 300,
+    "consented":false,
+    "id":"emg-pol-2",
+    "isActive":false
+  }
+]

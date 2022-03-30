@@ -1,0 +1,11 @@
+<table>
+    <tr><th>First name</th><th>Last name</th><th>E-mail</th><th>Telephone</th></tr>
+    #foreach($contact in $contacts)
+        <tr>
+            <td>$contact.getFirstName()</td>
+            <td>$contact.getLastName()</td>
+            <td>$contact.getEmail()</td>
+            <td>$contact.getTelephone()</td>
+        </tr>
+    #end
+</table>

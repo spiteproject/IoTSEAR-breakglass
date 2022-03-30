@@ -1,0 +1,30 @@
+{
+  "identifier": "emg-pol-1", 
+  "priority": 0,
+  "target": {
+    "subject": "EmergencyPolicyResolver",
+    "resource": "emergency",
+    "action": "detect"
+  },
+  "effect": "allow",
+  "condition": {
+    "darc:condition:or": [
+      {
+        "source": "heartratesensor-1",
+        "operation": "darc:condition:operation:equals",
+        "value": "1",
+        "verifiers": [
+          "darc:condition:verifier:freshness:15s"
+        ]
+      },
+      {
+        "source": "ecgsensor-1",
+        "operation": "darc:condition:operation:equals",
+        "value": "2",
+        "verifiers": [
+          "darc:condition:verifier:freshness:15s"
+        ]
+      }
+    ]
+  }
+}

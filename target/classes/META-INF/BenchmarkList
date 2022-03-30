@@ -1,0 +1,2 @@
+JMH S 30 benchmarks.BreakGlassBenchmark S 77 benchmarks.generated.BreakGlassBenchmark_breakGlassPoliciesResolution_jmhTest S 28 breakGlassPoliciesResolution S 11 AverageTime E A 1 1 1 E I 1 0 E E I 3 100 E E I 1 1 E E E E E M 1 19 nBreakGlassPolicies 2 4 1000 5 10000 U 12 MILLISECONDS E E 
+JMH S 30 benchmarks.BreakGlassBenchmark S 72 benchmarks.generated.BreakGlassBenchmark_breakGlassDecisionPoint_jmhTest S 23 breakGlassDecisionPoint S 11 AverageTime E A 1 1 1 E I 1 0 E E I 3 100 E E I 1 1 E E E E E M 1 19 nBreakGlassPolicies 2 4 1000 5 10000 U 12 MILLISECONDS E E 

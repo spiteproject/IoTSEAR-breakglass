@@ -1,0 +1,8 @@
+#if ($event)
+    Interruptable emergency: $event
+    <form action="/emergency/interrupt" method="POST">
+        <input type="submit" value="Interrupt" />
+    </form>
+#else
+    No interruptable emergency
+#end

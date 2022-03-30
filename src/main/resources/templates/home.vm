@@ -1,0 +1,12 @@
+<h3>Patient</h3>
+<ul>
+    <li><a href="emergency/interrupt">Interrupt emergency</a></li>
+    <li><a href="/policies/breakglass/consent/">Break Glass policy consent</a></li>
+    <li><a href="/policies/emergency/consent/">Emergency policy consent</a></li>
+    <li><a href="/emergencycontacts/">Emergency contacts configuration</a></li>
+</ul>
+
+<h3>Healthcare provider</h3>
+<ul>
+
+</ul>

@@ -1,0 +1,56 @@
+[
+  {
+    "emergencyLevel": {
+      "level": 4
+    },
+    "description": "The active test policy",
+    "nonRepudiationRequirements": {
+      "providers": [
+        "eid-reader-1"
+      ]
+    },
+    "breakGlassLevel": {
+      "level": 5
+    },
+    "breakGlassDuration": 15,
+    "consented": true,
+    "id": "bg-pol-1",
+	"isActive": false
+  },
+  {
+    "emergencyLevel": {
+      "level": 0
+    },
+    "description": "A default BG policy",
+    "nonRepudiationRequirements": {
+      "providers": [
+        "eid-reader-1"
+      ]
+    },
+    "breakGlassLevel": {
+      "level": 2
+    },
+    "breakGlassDuration": 15,
+    "consented": true,
+    "id": "bg-pol-default",
+    "isActive": false
+  },
+  {
+    "emergencyLevel": {
+      "level": 5
+    },
+    "description": "The active test policy",
+    "nonRepudiationRequirements": {
+      "providers": [
+        "eid-reader-1"
+      ]
+    },
+    "breakGlassLevel": {
+      "level": 5
+    },
+    "breakGlassDuration": 15,
+    "consented": true,
+    "isActive": false,
+    "id": "bg-pol-2"
+  }
+]
